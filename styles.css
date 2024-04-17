@@ -112,10 +112,6 @@ li::marker{
 }
 
 /* Nutrition Table*/
-.nut-table{
-    
-    
-}
     
 .nut-table li{
     list-style: none;
@@ -128,19 +124,15 @@ li::marker{
 span{
     color: var(--color-Nutmeg);
     font-weight: bold;
-    
 }
 
 
+/* Media Query */
 
-
-
-
-
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 500px) {
     .recipe-container{
         margin: auto;
-        max-width: 450px;
+        max-width: 450.5px;
         
     }
 
